@@ -11,8 +11,8 @@ async function searchProduct() {
   ).innerText = `Comparison for "${product}"`;
 
   try {
-    const response = await fetchfetch(`/api/search?product=${product}`);
-
+    const response = await fetchfetchfetch("/api/search?product=" + product)
+;
     const data = await response.json();
 
     const table = document.getElementById("resultsTable");
