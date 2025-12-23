@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #05070f;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 15px 30px;
+  background: rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 42px;
+  background: linear-gradient(90deg, #9b5cff, #00e5ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  color: #aaa;
+}
+
+.search-box {
+  margin-top: 30px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 260px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #9b5cff, #00e5ff);
+  color: white;
+  cursor: pointer;
+}
+
+/* RESULTS */
+.results {
+  padding: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}
+
+th {
+  background: rgba(255,255,255,0.05);
+}
+
+/* AI CARD */
+.ai-card {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(155,92,255,0.15);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+}

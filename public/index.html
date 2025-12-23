@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cosmic Compare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1>🚀 CosmicCompare</h1>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Compare Smarter. Buy Faster.</h2>
+    <p>Compare prices, ratings & reviews across top platforms</p>
+
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="Search any product..." />
+      <button onclick="searchProduct()">Compare</button>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="resultsSection" class="results hidden">
+    <h3 id="productTitle"></h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Platform</th>
+          <th>Price</th>
+          <th>Rating</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="resultsTable"></tbody>
+    </table>
+
+    <!-- AI Recommendation -->
+    <div class="ai-card">
+      <h4>🤖 AI Recommendation</h4>
+      <p id="aiText"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
